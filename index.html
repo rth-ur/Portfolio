@@ -1,31 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <div class="interface">
+  <header>
+    <div class="interface">
+      <nav class="botaodenavegacao">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#habilidades">Habilidades/Tecnologias</a></li>
+          <li><a href="#contatos">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-            <nav class= "botaodenavegacao">
-                <ul>
-                    <li><a href="Sobre.html"> Sobre</a></li>
-                    <li><a href="habilidades.html"> Habilidades/Tecnologias</a></li>
-                    <li><a href="contatos.html"> Contatos</a></li>
-                </ul>
-                
-            </nav>
-        </div>
-    </header>
-    
-    <h1>Olá, sou Arthur e esse é meu portfolio</h1>
-    <br>
-        <h3>clique em algo na barra de navegação para saber mais!</h3>
+  <main class="interface">
+    <section id="inicio">
+      <h1>Olá, sou Arthur e esse é meu portfolio</h1>
+      <h3>Clique em algo na barra de navegação para saber mais!</h3>
+    </section>
+
+    <section id="sobre">
+      <h1>Sobre</h1>
+      <p>Sou Arthur e tenho 18 anos. Desde quando criança sempre tive muito interesse pela área de TI e era muito curioso para saber como as coisas funcionavam.</p>
+      <p>Atualmente sou estudante de Engenharia de Software com interesse em desenvolvimento web e segurança da informação. Estou no primeiro semestre e sempre buscando aprender novas ferramentas, linguagens e boas práticas para construir sistemas.</p>
+    </section>
+
+    <section id="habilidades">
+      <h1>Habilidades e Tecnologias</h1>
+      <p>Sobre linguagens e tecnologias que eu sei pelo menos o básico</p>
+
+      <div class="habilidades">
+        <h2>👨‍💻 Front-End</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+        </ul>
+
+        <h2>🔧 Ferramentas</h2>
+        <ul>
+          <li>Git e GitHub</li>
+          <li>Figma</li>
+          <li>VS Code</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contatos">
+      <h1>Meios de Contato e Redes Sociais</h1>
+      <div class="contatos-botoes">
+        <a href="https://www.linkedin.com/in/arthur-moreira-/" target="_blank" rel="noopener noreferrer">
+          <button>LinkedIn</button>
+        </a>
+        <a href="https://github.com/rth-ur" target="_blank" rel="noopener noreferrer">
+          <button>GitHub</button>
+        </a>
+        <a href="mailto:arthur.clemente@sempreceub.com">
+          <button>Email</button>
+        </a>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
